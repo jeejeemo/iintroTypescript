@@ -36,7 +36,7 @@ System.register("Model", [], function (exports_2, context_2) {
 System.register("User", ["Model"], function (exports_3, context_3) {
     "use strict";
     var __moduleName = context_3 && context_3.id;
-    var Model_1, User, user, user;
+    var Model_1, User;
     return {
         setters: [
             function (Model_1_1) {
@@ -62,8 +62,6 @@ System.register("User", ["Model"], function (exports_3, context_3) {
                 return User;
             }(Model_1.Model));
             exports_3("User", User);
-            user = new User("test", 1, "wwww");
-            console.log(user);
         }
     };
 });

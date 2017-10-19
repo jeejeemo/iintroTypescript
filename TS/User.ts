@@ -35,6 +35,3 @@ export class User extends Model implements JsonSerializable {
 }
 //var user: User = new User("test", 1,"wwww");
 /*ou*/
-var user: User;
-var user = new User("test", 1,"wwww");
-console.log(user);
